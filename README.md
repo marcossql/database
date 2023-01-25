@@ -110,8 +110,3 @@ FROM DB_CPU_Statistics
 WHERE DatabaseID <> 32767 -- ResourceDB
 ORDER BY [CPU Ranking] OPTION (RECOMPILE);
 
-
---Pode olhar as queries que mais consomem CPU no Query Store 
-
---Posts de query store no meu blog
-https://www.fabriciolima.net/blog/tag/query-store/
